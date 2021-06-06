@@ -124,3 +124,6 @@ for i in range(0, n):
     elements.append(ele)
 
 print(isConsecutive(elements, n))
+
+#exo6
+###########################################
