@@ -22,8 +22,6 @@ def solve_equation(a, b, c):
             x = -c/b
             return x
 
-
-
 a = int(input('Entrez la valeur de a: '))
 b = int(input('Entrez la valeur de b: '))
 c = int(input('Entrez la valeur de c: '))
