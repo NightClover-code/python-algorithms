@@ -1,3 +1,4 @@
+#functions
 def split_list(t):
     tp = []
     tn = []
@@ -11,13 +12,9 @@ def split_list(t):
             tn.append(el)
     return f'tp: {tp}', f'tn: {tn}'
 
-
+#inputs
 n = int(input("Entrez le nombre d'élements: "))
 
-elements = []
-
-for i in range(0, n):
-    ele = int(input(f'Entrez la valeur {i}: '))
-    elements.append(ele)
-
+#execution
+elements = [int(input(f'Entrez la valeur {i}: ')) for i in range(n)]
 print(split_list(elements))
