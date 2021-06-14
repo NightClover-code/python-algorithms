@@ -17,7 +17,7 @@ def isSymmetric(mat, N):
 n = int(input("Entrez l'ordre de la matrice: "))
 
 #execution
-matrix= [[input(f"Entrez l'élement [{i}][{j}]") for j in range(n)] for i in range(n)]
+matrix= [[input(f"Entrez l'élement [{i}][{j}]: ") for j in range(n)] for i in range(n)]
 
 if isSymmetric(matrix, n) == True:
     print('symétrique')
