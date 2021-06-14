@@ -1,9 +1,14 @@
+#functions
 def somme_impairs(n):
     i = 1
+    S = 0
     while (i < n):
-        print(i)
-        i += 2        
+        S += i
+        i += 2     
+    return S   
 
+#inputs
 n = int(input('Entrez un entier naturel: '))
 
-somme_impairs(n)
+#execution
+print(f'La somme des impairs inférieurs à {n} est: {somme_impairs(n)}')
