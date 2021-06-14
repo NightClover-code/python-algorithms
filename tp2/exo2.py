@@ -12,7 +12,7 @@ a = int(input('Entrez a positif et non nul: '))
 b = int(input('Entrez b positif et non nul: '))
 
 #guards
-while (a < 0 or b < 0):
+while(a < 0 or b < 0):
     a = int(input('Recommencez, entrez a: '))
     a = int(input('Recommencez, entrez b: '))
 
