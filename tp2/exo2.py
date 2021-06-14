@@ -4,8 +4,7 @@ def calcul_pgcd(a, b):
         r = a % b
         a = b
         b = r
-    if (a % b == 0):
-        return b
+    return b
 
 #inputs
 a = int(input('Entrez a positif et non nul: '))
